@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14050d" />
+      <stop offset="50%" stop-color="#2d0c1c" />
+      <stop offset="100%" stop-color="#3d1226" />
+    </linearGradient>
+    <linearGradient id="goldHaze" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e9b44c" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#f6d58a" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#e9b44c" stop-opacity="0.1" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#e9b44c" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#14050d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#skyGrad)" />
+  <rect width="1200" height="480" fill="url(#centerGlow)" />
+
+  <!-- Stars & Constellations in night sky -->
+  <g fill="#f6d58a" opacity="0.6">
+    <circle cx="120" cy="80" r="1.5" />
+    <circle cx="240" cy="50" r="2" />
+    <circle cx="380" cy="110" r="1.5" />
+    <circle cx="510" cy="65" r="2" />
+    <circle cx="700" cy="75" r="1.8" />
+    <circle cx="850" cy="45" r="2.2" />
+    <circle cx="980" cy="90" r="1.5" />
+    <circle cx="1090" cy="60" r="2" />
+  </g>
+
+  <!-- Islamic University Monumental Architecture Silhouette -->
+  <!-- Central Grand Arch & Faculty Facade -->
+  <g fill="#1f0714" stroke="#4a142c" stroke-width="2">
+    <!-- Main central faculty building -->
+    <rect x="350" y="140" width="500" height="260" rx="4" />
+    <!-- Pillars / Colonnade -->
+    <rect x="380" y="200" width="24" height="200" fill="#290a1a" />
+    <rect x="430" y="200" width="24" height="200" fill="#290a1a" />
+    <rect x="480" y="200" width="24" height="200" fill="#290a1a" />
+    <rect x="696" y="200" width="24" height="200" fill="#290a1a" />
+    <rect x="746" y="200" width="24" height="200" fill="#290a1a" />
+    <rect x="796" y="200" width="24" height="200" fill="#290a1a" />
+
+    <!-- Central Grand Entrance Arch -->
+    <path d="M 530,400 L 530,240 C 530,170 670,170 670,240 L 670,400 Z" fill="#13040c" stroke="#e9b44c" stroke-width="2" stroke-opacity="0.6" />
+    <path d="M 550,400 L 550,250 C 550,195 650,195 650,250 L 650,400 Z" fill="#0d0208" />
+
+    <!-- Dome over central faculty -->
+    <path d="M 520,140 C 520,60 680,60 680,140 Z" fill="#2d0c1c" stroke="#e9b44c" stroke-width="2.5" />
+    <line x1="600" y1="40" x2="600" y2="70" stroke="#f6d58a" stroke-width="3" />
+    <circle cx="600" cy="36" r="6" fill="#f6d58a" />
+
+    <!-- Left Wing -->
+    <rect x="100" y="200" width="250" height="200" fill="#1b0612" />
+    <rect x="60" y="160" width="40" height="240" fill="#240818" />
+    <!-- Left Minaret -->
+    <polygon points="80,110 65,160 95,160" fill="#e9b44c" opacity="0.8" />
+    <circle cx="80" cy="105" r="4" fill="#f6d58a" />
+
+    <!-- Right Wing -->
+    <rect x="850" y="200" width="250" height="200" fill="#1b0612" />
+    <rect x="1100" y="160" width="40" height="240" fill="#240818" />
+    <!-- Right Minaret -->
+    <polygon points="1120,110 1105,160 1135,160" fill="#e9b44c" opacity="0.8" />
+    <circle cx="1120" cy="105" r="4" fill="#f6d58a" />
+
+    <!-- Grand Stairs (University Steps where Batch 40 took their photo) -->
+    <polygon points="260,400 940,400 1050,480 150,480" fill="#190510" stroke="#3d0e23" stroke-width="1.5" />
+    <line x1="230" y1="420" x2="970" y2="420" stroke="#4a142c" stroke-width="2" />
+    <line x1="200" y1="440" x2="1000" y2="440" stroke="#4a142c" stroke-width="2" />
+    <line x1="170" y1="460" x2="1030" y2="460" stroke="#4a142c" stroke-width="2" />
+  </g>
+
+  <!-- Ambient Golden Vignette & Stage -->
+  <rect x="0" y="380" width="1200" height="100" fill="url(#goldHaze)" />
+  <rect x="0" y="440" width="1200" height="40" fill="#14050d" opacity="0.8" />
+</svg>

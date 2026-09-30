@@ -1,0 +1,6 @@
+{
+  "name": "আল ইতকান ৪০ - ইসলামী বিশ্ববিদ্যালয়",
+  "description": "ইসলামী বিশ্ববিদ্যালয়, কুষ্টিয়া - আল কুরআন ও ইসলামিক স্টাডিজ বিভাগের ৪০তম ব্যাচের প্রিমিয়াম স্মার্ট একাডেমিক ও কমিউনিটি পোর্টাল।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
